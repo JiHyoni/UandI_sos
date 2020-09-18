@@ -1,2 +1,4 @@
 # WebServer
-JSP WebServer 
+- JSP WebServer 
+- JDBC
+- Arduino - python - MySQL - Webserver 
