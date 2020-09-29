@@ -21,7 +21,7 @@ pageEncoding="UTF-8" import="java.sql.*" %>
 	
 	try{
 		Class.forName(jdbc_driver);
-		conn = DriverManager.getConnection(jdbc_url,"user1","98765");
+		conn = DriverManager.getConnection(jdbc_url,"","");
 		String sql = "select time,contents from sos;";
 		pstmt = conn.prepareStatement(sql);
 		ResultSet rs = pstmt.executeQuery();
