@@ -12,8 +12,6 @@ int tempo = 500; // duration 옵션 값을 설정
 const char* ssid = "square 12F-1";  // 누구나  
 const char* pass = "micimpact"; // 비번
 
-//const char* ssid = "SK_WiFiGIGAE2FC";        // WiFi의 SSID 
-//const char* pass = "2005005671"; // 비번
 const char* server = "api.pushingbox.com";
 int buttonPin = 8; //pin 번호 8에 + 와 GND 연결
 WiFiEspClient client;
